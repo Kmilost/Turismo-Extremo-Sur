@@ -11,6 +11,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="style formulario.css">
+
+
 </head>
 
 <body>
@@ -40,6 +43,39 @@
   </header>
   <main>
 
+    <div id="container">
+      <form id="miFormulario">
+
+          <label>Nombre:</label><br>
+          <input type="text" id="itNombre"  class="campo" /><br />
+          <div id="mensaje1" class="errores">Dame tu Nombre</div>
+
+          <label>Celular:</label><br>
+          <input type="text" id="itCelular"  class="campo" /><br />
+          <div id="mensaje2" class="errores">Dame un Celular</div>
+
+          <label>Correo electronico:</label><br />
+          <input type="text" id="itMail"  class="campo" /><br />
+          <div id="mensaje3" class="errores">Dame un mail correcto</div>
+
+          <label>Pais:</label><br />
+          <input type="text" id="itPais"  class="campo" /><br />
+          <div id="mensaje4" class="errores">Dime un Pais</div>
+
+          <label>Ciudad:</label><br />
+          <input type="text" id="itCiudad"  class="campo" /><br />
+          <div id="mensaje5" class="errores">Dime una Ciudad</div>
+
+          <label>Consulta:</label><br />
+          <input type="text" id="itConsulta"  class="campo" /><br />
+          <div id="mensaje6" class="errores">Escribe una consulta</div>
+
+          <input type="submit" id="bEnviar" value="Enviar datos" class="boton"/>
+
+      </form>
+  </div>
+
+
   </main>
   <footer>
     <!-- place footer here -->
@@ -52,6 +88,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+
+<script src = 'validar.js'></script>
 </body>
 
 </html>

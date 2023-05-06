@@ -1,17 +1,23 @@
 .clima-hoy{
     border: solid 2px rgb(60, 196, 196);
     text-align: center;
-    display: inline-block;
+    justify-items: center;
     padding: 0 600;
 }
 
 .dia{
     border: solid 2px rgb(60, 196, 196);
     text-align: center;
+    justify-items: center;
     margin: 0 500px;
     display: inline-block;
+    background-color: black;
 }
 
-body{
+.lista-clima{
+    display: grid;
+    grid-column: 5;
+    grid-gap: 1.5rem;
+    padding: 40px;
     
 }

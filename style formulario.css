@@ -29,7 +29,7 @@
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    background: red;
+    background: rgb(60, 196, 196);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     color: #fff;
     display: none;

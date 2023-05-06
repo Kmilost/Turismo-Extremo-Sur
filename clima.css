@@ -1,0 +1,17 @@
+.clima-hoy{
+    border: solid 2px rgb(60, 196, 196);
+    text-align: center;
+    display: inline-block;
+    padding: 0 600;
+}
+
+.dia{
+    border: solid 2px rgb(60, 196, 196);
+    text-align: center;
+    margin: 0 500px;
+    display: inline-block;
+}
+
+body{
+    
+}

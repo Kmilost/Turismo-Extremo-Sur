@@ -15,7 +15,7 @@ var expr = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
             }else{
                 $("#mensaje1").fadeOut();
                 if(celular == ""){
-                    $("mensaje2").fadeIn();
+                    $("#mensaje2").fadeIn();
                     return false;
                 }else{
                     $("#mensaje2").fadeOut();

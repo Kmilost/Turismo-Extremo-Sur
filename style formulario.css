@@ -1,33 +1,25 @@
-body{
-    padding-top: 100px;
+
+
+#miFormulario{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+
 }
-#container {
-    -webkit-border-radius: 10px;
-    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    -moz-border-radius: 10px;
-    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    -o-border-radius: 10px;
-    -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    background: #fff;
-    border-radius: 10px;   
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    font-family: 'Comfortaa',sans-serif;
-    font-size: 18px;
-    margin: 0 auto;
-    padding: 30px;
-    width: 350px;
-}
+
     
 .campo{
-    border: solid 4px #cece76;
+    border: solid 4px rgb(60, 196, 196);
     font-size: 18px;
     padding: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     width: 300px;
+    text-align: left;
 }
 
 .boton{
-    background: #849175;
+    background: rgb(60, 196, 196);
     border: solid 0;
     color: #fff;
     padding: 10px;
@@ -42,9 +34,10 @@ body{
     color: #fff;
     display: none;
     font-size: 14px;
-    margin-top: -80px;
-    margin-left: 340px;
+    margin-top: -60px;
+    margin-left: 840px;
     padding: 10px;
     position: absolute;
 }
+
 
